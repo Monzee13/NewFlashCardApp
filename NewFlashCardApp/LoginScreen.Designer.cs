@@ -40,8 +40,10 @@
             // 
             this.tbo_Password.Location = new System.Drawing.Point(426, 231);
             this.tbo_Password.Name = "tbo_Password";
+            this.tbo_Password.PasswordChar = '*';
             this.tbo_Password.Size = new System.Drawing.Size(100, 26);
             this.tbo_Password.TabIndex = 0;
+            this.tbo_Password.UseSystemPasswordChar = true;
             // 
             // tbo_UserName
             // 

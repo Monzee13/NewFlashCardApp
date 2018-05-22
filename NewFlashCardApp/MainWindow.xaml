@@ -10,7 +10,7 @@
         <Button x:Name="btn_StartNew" Content="Start New" HorizontalAlignment="Left" Margin="360,240,0,0" VerticalAlignment="Top" Width="80" Height="80"/>
         <Button x:Name="btn_HighScore" Content="High Scores" HorizontalAlignment="Left" Margin="200,240,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="btn_HighScore_Click"/>
         <Button x:Name="btn_Login" Content="Login" HorizontalAlignment="Left" Margin="40,240,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="btn_Login_Click"/>
-        <Button x:Name="btn_Admin" Content="Admin" HorizontalAlignment="Left" Margin="680,240,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="btn_Admin_Click"/>
+        <Button x:Name="btn_Admin" Content="Admin" HorizontalAlignment="Left" Margin="680,240,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="btn_Admin_Click" IsEnabled="False"/>
         <Button x:Name="btn_CreateUser" Content="Create User" HorizontalAlignment="Left" Margin="520,240,0,0" VerticalAlignment="Top" Width="80" Height="80" Click="btn_CreateUser_Click"/>
         <Label x:Name="lbl_GameName" Content="Best Ever Flash Card Game" HorizontalAlignment="Left" Margin="40,80,0,0" VerticalAlignment="Top" Width="720" Height="80"/>
 
